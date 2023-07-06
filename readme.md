@@ -1,5 +1,3 @@
-GitHub Copilot: Sure, here's an improved version of the README file:
-
 # Parallel Deep Learning
 
 This repository contains code for a neural network implementation that uses parallelism to speed up forward propagation. The neural network is implemented in C++ and uses OpenMP for parallelization.
