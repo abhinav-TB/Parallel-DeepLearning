@@ -40,7 +40,7 @@ The parallel implementation of the neural network can provide significant speedu
 |----------------------------------------|----------------|-------------------|---------|
 | 2-3-1                                  | 0.1521         | 0.1431            | 1.06x   |
 | 2-1000-1000-1000-1                     | 0.0385         | 0.0270            | 1.42x   |
-| 2,1000,1000,1000,1000,1000,1000,1000,1 | 0.1055         | 0.0419            | 2.51x   |
+| 2-1000-1000-1000-1000-1000-1000-1000-1 | 0.1055         | 0.0419            | 2.51x   |
 
 These results were obtained on a system with an Intel Core i5-9300H CPU and 4 physical cores. The neural network was trained on a single input-output pair.
 
