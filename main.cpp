@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
-#include "NeuralNetwork.hpp"
+#include "neural_network.hpp"
 
 int main() {
     // Initialize the random seed

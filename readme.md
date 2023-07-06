@@ -10,8 +10,9 @@ This repository contains code for a neural network implementation that uses para
 ## Usage
 
 1. Clone the repository: `git clone https://github.com/username/Parallel-DeepLearning.git`
-2. Compile the code: `g++ -fopenmp main.cpp -o main`
-3. Run the program: `./main`
+2. Navigate to the cloned repository: `cd Parallel-DeepLearning`
+3. Compile the code: `g++ -fopenmp main.cpp neural_network.cpp -o main`
+4. Run the program: `./main`
 
 ## Implementation Details
 
@@ -28,4 +29,3 @@ Contributions are welcome! Please open an issue or pull request for any bug fixe
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

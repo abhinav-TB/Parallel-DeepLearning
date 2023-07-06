@@ -1,4 +1,4 @@
-#include "NeuralNetwork.hpp"
+#include "neural_network.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
