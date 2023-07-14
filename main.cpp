@@ -3,10 +3,6 @@
 #include <chrono>
 #include "neural_network.hpp"
 
-#include <iostream>
-#include <vector>
-#include <chrono>
-#include "neural_network.hpp"
 
 int main() {
     // Initialize the random seed
