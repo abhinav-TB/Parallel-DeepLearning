@@ -1,5 +1,3 @@
-GitHub Copilot: Sure, here's an improved version of the README file:
-
 # Parallel Deep Learning
 
 This repository contains code for a neural network implementation that uses parallelism to speed up forward propagation. The neural network is implemented in C++ and uses OpenMP for parallelization.
@@ -24,13 +22,6 @@ The neural network uses forward propagation to make predictions. The input layer
 
 Parallelism is achieved using OpenMP. The `feedForward` method is parallelized using the `omp parallel for` directive, which distributes the work across multiple threads. The number of threads used by the neural network can be controlled using the `OMP_NUM_THREADS` environment variable.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or pull request for any bug fixes or feature requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Performance
 
@@ -46,3 +37,10 @@ These results were obtained on a system with an Intel Core i5-9300H CPU and 4 ph
 
 Note that the exact performance results may vary depending on the specific hardware and workload. You may need to experiment with different neural network sizes and input-output pairs to find the optimal performance for your system.
 
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request for any bug fixes or feature requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
